@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(porsche.jpg);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 15px;
+    gap: 20;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.hero {
+    height: 30vh;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/04/16/27/car-3198456_1280.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    font-style: italic;
+}
+
+.hero img {
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 85%;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content div {
+    width: 500px;
+}
+
+.content p {
+    background-color: rgba(0, 0, 255, 0.408);
+    padding: 15px;
+    position: relative;
+    top: -50px;
+    color: white;
+}
